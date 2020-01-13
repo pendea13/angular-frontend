@@ -1,0 +1,12 @@
+﻿<h1>Hi {{currentUserDetails?.firstName}}!</h1>
+<p>You're logged in with Angular 8!!</p>
+<h3>All registered users:</h3>
+<ul>
+    <li *ngFor="let user of users">
+        {{user.email}} ({{user.firstName}} {{user.lastName}})
+      <div class="btn-group" role="group">
+        <button (click)="deleteUser(user.id)" type="button" class="btn btn-danger btn-sm mr-2">Delete</button>
+        <button routerLink="/user/edit/{{user.id}}" type="button" class="btn btn-info btn-sm mr-2">edit</button>
+      </div>
+    </li>
+</ul>
