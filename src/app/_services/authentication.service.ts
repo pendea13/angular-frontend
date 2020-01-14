@@ -23,8 +23,8 @@ export class AuthenticationService {
     login(username, password) {
       const body = {
         grant_type: 'password',
-        client_id: 3,
-        client_secret: 'Et3nGUkTCd5EqQi2uQlFxgLlfRqFkdPiVTJ9uOWy',
+        client_id: 2,
+        client_secret: 'iSvknUdNmMYsTk8Tl8uPqpAKHp8RRVy9sHeFK15c',
         scope: '*',
         username,
         password

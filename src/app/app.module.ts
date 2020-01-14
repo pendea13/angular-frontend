@@ -10,8 +10,9 @@ import { HomeComponent } from './home';
 import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
 import { AlertComponent } from './_components';
-import { RoleComponent } from './role/role.component';;
-import { UserDetailsComponent } from './user-details/user-details.component'
+import { RoleComponent } from './role/role.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
+import { AlertModule } from 'ngx-bootstrap';
 
 @NgModule({
     imports: [
